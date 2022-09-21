@@ -11,36 +11,41 @@ const Navbar = () => {
   }
 
   return (
-    <div className='w-full h-20 bg-cyan-100 flex justify-between items-center md:justify-around'>
-      <aside className=' flex items-center gap-x-2'>
-        {' '}
+    <nav className='w-full overflow-hidden flex justify-between items-center h-20 bg-cyan-100 px-5 md:px-20 '>
+      <div className='flex items-center'>
         <Image
+          alt='/'
           src='/assets/vector/logo.svg'
           width={48.63}
           height={40.29}
-          alt=''
         />
         <p className='font-bold text-black'>Bashi Media</p>
-      </aside>
-      <div className=''>
-        <aside className='hidden md:flex md:gap-x-8'>
-          <Link href='/'>Capabilities</Link>
-          <Link href='/'>Our Team</Link>
-          <Link href='/'>Our Work</Link>
-          <Link href='/'>Blog</Link>
-        </aside>
-        <div onClick={handleNav} className='md:hidden'>
-          <AiOutlineMenu size={25} />
-        </div>
       </div>
-      <aside className=' ml-8'>
-        <button className='hidden md:block font-bold md:w-[207px] md:h-[52px] rounded-xl border-2 border-black bg-white text-black'>
+      <aside className='hidden lg:flex items-center md:gap-x-8 w-[70%]'>
+        <Link href='/'> Capabilities</Link>
+        <Link href='/'>
+          <a href='' className='whitespace-nowrap'>
+            Our Team
+          </a>
+        </Link>
+        <Link href='/'>
+          <a href='' className='whitespace-nowrap'>
+            Our Work
+          </a>
+        </Link>
+        <Link href='/'>Blog</Link>
+        <p className='flex-grow' />
+        <button className=' font-bold md:w-[207px] md:h-[52px] rounded-xl border-2 border-black bg-white text-black'>
           Contact Us
         </button>
       </aside>
-
+      <div onClick={handleNav} className='lg:hidden'>
+        <AiOutlineMenu size={25} />
+      </div>
       <div
-        className={nav ? 'fixed left-0 top-0 w-full h-screen bg-black/70' : ''}
+        className={`lg:hidden absolute transition-all duration-500 w-screen h-screen bg-black/70 ${
+          nav ? '-ml-6' : '-ml-[120vw]'
+        } `}
       >
         <div
           className={
@@ -49,24 +54,21 @@ const Navbar = () => {
               : 'fixed left-[-100%] top-0 p-5 ease-in duration-500'
           }
         >
-          <div>
-            <div className='w-full flex items-center justify-between'>
-              {' '}
+          <div className='w-full flex items-center justify-between'>
+            <aside className='flex items-center gap-x-1'>
               <Image
                 src='/assets/vector/logo.svg'
                 width={48.63}
                 height={40.29}
                 alt=''
               />
-              <div
-                onClick={handleNav}
-                className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
-              >
-                <AiOutlineClose />
-              </div>
-            </div>
-            <div className='font-semibold my-4 border-b border-gray-300'>
-              <p className='py-4'>Bashi Media</p>
+              <p className='font-bold text-black'>Bashi Media</p>
+            </aside>
+            <div
+              onClick={handleNav}
+              className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
+            >
+              <AiOutlineClose />
             </div>
           </div>
           <div>
@@ -92,7 +94,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   )
 }
 
