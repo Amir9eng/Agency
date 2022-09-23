@@ -55,7 +55,7 @@ const Remote = () => {
           curated team of specialists in Colombo, Sri Lanka will cater to
           whichever region your business targets
         </p>
-        <button className='border-black border-2 rounded-xl px-3 py-2 font-semibold mt-3'>
+        <button className='border-black border-2 rounded-xl px-3 py-2 font-semibold mt-3 hover:scale-105 hover:text-white hover:bg-black'>
           Lets Get Started
         </button>
       </div>

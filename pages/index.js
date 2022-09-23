@@ -1,8 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Clients from '../components/Clients'
+import Collaboration from '../components/Collaboration'
 import Main from '../components/Main'
 import Navbar from '../components/Navbar'
 import Remote from '../components/Remote'
+import Talents from '../components/Talents'
+import Work from '../components/Work'
 import styles from '../styles/Home.module.css'
 
 export default function Home () {
@@ -18,6 +22,10 @@ export default function Home () {
         <Navbar />
         <Main />
         <Remote />
+        <Collaboration />
+        <Talents />
+        <Work />
+        <Clients />
       </main>
     </div>
   )
