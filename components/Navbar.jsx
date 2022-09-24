@@ -22,7 +22,7 @@ const Navbar = () => {
         <p className='font-bold text-black'>Bashi Media</p>
       </div>
       <aside className='hidden lg:flex items-center md:gap-x-8 w-[70%]'>
-        <Link href='/'> Capabilities</Link>
+        <Link href='/Capabilities'> Capabilities</Link>
         <Link href='/'>
           <a href='' className='whitespace-nowrap'>
             Our Team

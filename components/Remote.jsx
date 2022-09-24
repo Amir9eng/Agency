@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Remote = () => {
   return (
-    <section className='flex px-48 py-32 gap-x-8  mx-auto'>
+    <section className='flex lg:flex-row flex-col px-48 py-32 gap-x-8 mx-auto'>
       <div>
         <aside className='relative'>
           <Image

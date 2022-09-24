@@ -1,13 +1,13 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Clients from '../components/Clients'
 import Collaboration from '../components/Collaboration'
+import Footer from '../components/Footer'
 import Main from '../components/Main'
 import Navbar from '../components/Navbar'
 import Remote from '../components/Remote'
 import Talents from '../components/Talents'
+import Talk from '../components/Talk'
 import Work from '../components/Work'
-import styles from '../styles/Home.module.css'
 
 export default function Home () {
   return (
@@ -18,7 +18,7 @@ export default function Home () {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main>
+      <main className='w-full overflow-hidden'>
         <Navbar />
         <Main />
         <Remote />
@@ -26,6 +26,8 @@ export default function Home () {
         <Talents />
         <Work />
         <Clients />
+        <Talk />
+        <Footer />
       </main>
     </div>
   )

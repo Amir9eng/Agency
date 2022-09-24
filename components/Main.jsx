@@ -4,7 +4,7 @@ import Board from './Board'
 
 const Main = () => {
   return (
-    <section className='bg-cyan-100 py-12 px-20 flex'>
+    <section className='w-full bg-cyan-100 py-12 px-20 flex md:flex-wrap md:flex-row flex-col'>
       <div className='w-[508.35px] py-10 px-2'>
         <h1 className='text-black'>Elevate Your</h1>
         <h1 className='text-cyan-900'> Social Media</h1>

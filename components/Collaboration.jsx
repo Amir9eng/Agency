@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Collaboration = () => {
   return (
-    <section className='flex px-48 py-32 gap-x-8  mx-auto'>
+    <section className='flex lg:flex-row flex-col px-48 py-32 gap-x-8  mx-auto'>
       <div className='py-12'>
         <h2 className='font-semibold'>Collaboration</h2>
         <h2 className='font-semibold'>Done Right</h2>
