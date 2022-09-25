@@ -15,18 +15,21 @@ const Talents = () => {
           alt='/'
           width={366.71}
           height={366.71}
+          layout='responsive'
           src='/assets/media/Social.png'
         />
         <Image
           alt='/'
           width={366.71}
           height={366.71}
+          layout='responsive'
           src='/assets/media/Graphic.png'
         />
         <Image
           alt='/'
           width={366.71}
           height={366.71}
+          layout='responsive'
           src='/assets/media/Photo.png'
         />
       </div>

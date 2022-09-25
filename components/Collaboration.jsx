@@ -22,6 +22,7 @@ const Collaboration = () => {
           alt='/'
           width={625.34}
           height={470.48}
+          // layout='responsive'
           src='/assets/media/Collaboration.png'
         />
         {/* <aside className=''>

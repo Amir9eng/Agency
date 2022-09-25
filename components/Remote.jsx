@@ -10,7 +10,8 @@ const Remote = () => {
             src='/assets/media/Chat.png'
             width={570.71}
             height={359.82}
-            alt=''
+            layout='responsive'
+            alt='/'
           />
           <div className='absolute top-[-15px] right-0'>
             <Image
