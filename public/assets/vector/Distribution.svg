@@ -1,0 +1,28 @@
+<svg width="95" height="96" viewBox="0 0 95 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="95" height="96" rx="20" fill="#2A7576"/>
+<g filter="url(#filter0_b_1481_3757)">
+<path d="M73.8339 11H22.9259C21.5198 11 20.3799 12.1399 20.3799 13.546V82.454C20.3799 83.8601 21.5198 85 22.9259 85H73.8339C75.24 85 76.3799 83.8601 76.3799 82.454V13.546C76.3799 12.1399 75.24 11 73.8339 11Z" fill="url(#paint0_radial_1481_3757)" fill-opacity="0.4"/>
+<path d="M22.9259 11.6365H73.8339C74.8885 11.6365 75.7434 12.4914 75.7434 13.546V82.454C75.7434 83.5086 74.8885 84.3635 73.8339 84.3635H22.9259C21.8713 84.3635 21.0164 83.5086 21.0164 82.454V13.546C21.0164 12.4914 21.8713 11.6365 22.9259 11.6365Z" stroke="url(#paint1_linear_1481_3757)" stroke-width="1.273" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M35.6382 27.6787H61.5089" stroke="white" stroke-width="3.81899" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M35.6382 40.9219H61.5089" stroke="white" stroke-width="3.81899" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M35.6382 54.166H61.5089" stroke="white" stroke-width="3.81899" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M35.6382 67.4092H61.5089" stroke="white" stroke-width="3.81899" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<filter id="filter0_b_1481_3757" x="5.10393" y="-4.27595" width="86.5519" height="104.552" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="7.63798"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1481_3757"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1481_3757" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_1481_3757" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(34.373 43.0842) rotate(-23.1088) scale(68.127 162.91)">
+<stop stop-color="#339AA2"/>
+<stop offset="0.749777" stop-color="#339AA2" stop-opacity="0"/>
+<stop offset="1" stop-color="#339AA2"/>
+</radialGradient>
+<linearGradient id="paint1_linear_1481_3757" x1="24.9581" y1="37.9237" x2="56.019" y2="79.2598" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.64"/>
+<stop offset="1" stop-color="white" stop-opacity="0.24"/>
+</linearGradient>
+</defs>
+</svg>
