@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 
-const Navbar = () => {
+const NavWhite = () => {
   const [nav, setNav] = useState(false)
 
   const handleNav = () => {
@@ -22,18 +22,18 @@ const Navbar = () => {
         <p className='font-bold text-black'>Bashi Media</p>
       </div>
       <aside className='hidden lg:flex items-center md:gap-x-8 w-[70%]'>
-        <Link href='/'> Capabilities</Link>
-        <Link href='/'>
+        <Link href='/Capabilities'> Capabilities</Link>
+        <Link href='/OurTeam'>
           <a href='' className='whitespace-nowrap'>
             Our Team
           </a>
         </Link>
-        <Link href='/'>
+        <Link href='/OurWork'>
           <a href='' className='whitespace-nowrap'>
             Our Work
           </a>
         </Link>
-        <Link href='/'>Blog</Link>
+        <Link href='/Blogs'>Blog</Link>
         <p className='flex-grow' />
         <button className=' font-bold md:w-[207px] md:h-[52px] rounded-xl border-2 border-black bg-white text-black'>
           Contact Us
@@ -98,4 +98,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default NavWhite

@@ -19,21 +19,23 @@ const Navbar = () => {
           width={48.63}
           height={40.29}
         />
-        <p className='font-bold text-black'>Bashi Media</p>
+        <Link href='/'>
+          <p className='font-bold text-black'>Bashi Media</p>
+        </Link>
       </div>
       <aside className='hidden lg:flex items-center md:gap-x-8 w-[70%]'>
         <Link href='/Capabilities'> Capabilities</Link>
-        <Link href='/'>
+        <Link href='/OurTeam'>
           <a href='' className='whitespace-nowrap'>
             Our Team
           </a>
         </Link>
-        <Link href='/'>
+        <Link href='/OurWork'>
           <a href='' className='whitespace-nowrap'>
             Our Work
           </a>
         </Link>
-        <Link href='/'>Blog</Link>
+        <Link href='/Blogs'>Blog</Link>
         <p className='flex-grow' />
         <button className=' font-bold md:w-[207px] md:h-[52px] rounded-xl border-2 border-black bg-white text-black'>
           Contact Us
@@ -73,16 +75,16 @@ const Navbar = () => {
           </div>
           <div>
             <ul className='uppercase py-4 flex flex-col font-semibold'>
-              <Link href='/'>
+              <Link href='/Capabilities'>
                 <li className='py-4 text-sm'>Capabilities</li>
               </Link>
-              <Link href='/'>
+              <Link href='/OurTeam'>
                 <li className='py-4 text-sm'>Our Team</li>
               </Link>
-              <Link href='/'>
+              <Link href='/OurWork'>
                 <li className='py-4 text-sm'>Our Work</li>
               </Link>
-              <Link href='/'>
+              <Link href='/Blogs'>
                 <li className='py-4 text-sm'>Blog</li>
               </Link>
             </ul>
