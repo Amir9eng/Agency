@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <section className='px-48'>
       <h2 className='text-center my-10'>Blogs</h2>
-      <aside className='flex gap-x-8'>
+      <aside className='flex gap-x-8 flex-col gap-y-8 lg:flex-row'>
         <div className='container rounded-xl w-[22.5rem] flex flex-col bg-cyan-100'>
           <Image
             alt='/'
@@ -79,7 +79,7 @@ const Blog = () => {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <div className='flex gap-x-3 items-center mt-16'>
+            <div className='flex gap-x-3 items-center mt-16 mb-4'>
               <p className='text-cyan-300'>Read full story</p>
               <Image
                 alt='/'
@@ -92,7 +92,7 @@ const Blog = () => {
         </div>
       </aside>
 
-      <aside className='flex gap-x-8 my-8'>
+      <aside className='flex gap-x-8 my-8 flex-col gap-y-8 lg:flex-row'>
         <div className='container rounded-xl w-[22.5rem] flex flex-col bg-cyan-100'>
           <Image
             alt='/'
@@ -166,7 +166,7 @@ const Blog = () => {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <div className='flex gap-x-3 items-center mt-16'>
+            <div className='flex gap-x-3 items-center mt-16 mb-4'>
               <p className='text-cyan-300'>Read full story</p>
               <Image
                 alt='/'

@@ -4,7 +4,7 @@ import React from 'react'
 const Bar = () => {
   return (
     <section>
-      <aside className='flex px-56  items-center justify-between'>
+      <aside className='flex flex-col lg:flex-row gap-y-6 px-56 items-center justify-between'>
         <div className='flex flex-col gap-y-4 items-center'>
           <h2 className=''>1000+</h2> <p>Designs Made</p>
         </div>
@@ -19,7 +19,7 @@ const Bar = () => {
           <p>Continents</p>
         </div>
       </aside>
-      <aside className='flex gap-x-4 px-56 mt-4'>
+      <aside className='flex flex-col lg:flex-row mx-auto gap-y-6 gap-x-4 px-56 mt-4'>
         <div className='rounded-xl'>
           <Image alt='/' width={335} height={346} src='/assets/media/Bar.png' />
         </div>

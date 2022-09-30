@@ -1,18 +1,18 @@
 import React from 'react'
-import Blog from '../components/Blog'
 import Footer from '../components/Footer'
 import NavWhite from '../components/Navwhite'
-import Talk from './../components/Talk';
+import Talk from '../components/Talk'
+import Tips from './../components/Tips'
 
-const Blogs = () => {
+const OurWork = () => {
   return (
     <div className='w-full'>
       <NavWhite />
-      <Blog />
-      <Talk/>
+      <Tips />
+      <Talk />
       <Footer />
     </div>
   )
 }
 
-export default Blogs
+export default OurWork

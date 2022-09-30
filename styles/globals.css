@@ -27,7 +27,7 @@ body {
         @apply font-bold;
     }
     h1 {
-        @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway];
+        @apply text-4xl sm:text-5xl md:text-5xl font-[Raleway];
     }
     h2 {
         @apply text-3xl sm:text-4xl font-[Raleway];

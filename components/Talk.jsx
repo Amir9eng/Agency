@@ -4,10 +4,10 @@ import Image from 'next/image'
 const Talk = () => {
   return (
     <section className='bg-cyan-100 py-10 px-48 flex md:flex-row flex-col mt-12'>
-      <div>
+      <div className='max-w-[37rem]'>
         <p>Want to get in touch?</p>
         <h2 className='mt-6'>Lets Talk</h2>
-        <p className='w-[599px] mt-6'>
+        <p className='w-[37rem] mt-6'>
           Send us an enquiry describing how we can fufill your businesses needs
           and we will aim to get back to you within 48 hours and book a call
           with you. We are a global consultancy with clients in the US, Europe,
@@ -18,7 +18,7 @@ const Talk = () => {
           Lets Talk
         </button>
       </div>
-      <div>
+      <div className='w-[27rem]'>
         <Image
           width={430}
           height={430}
