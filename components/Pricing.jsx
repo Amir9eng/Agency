@@ -87,8 +87,7 @@ const Pricing = () => {
         <div className='bg-cyan-900 h-[49.6875rem] w-[19.6875rem] py-6 px-6 rounded-xl'>
           <p className='text-white text-2xl font-semibold'>Custom</p>
           <p className='text-white text-2xl font-semibold'> Deployment</p>
-          <p className='inline-grid grid-cols-2'>
-            <Mark />
+          <p className=''>
             We will put together a bespoke plan for you based on the hours we
             will invest with your business to get your business what it needs.
           </p>
