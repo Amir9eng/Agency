@@ -3,7 +3,7 @@ import React from 'react'
 
 const Connect = () => {
   return (
-    <section className='bg-cyan-100 py-6'>
+    <section className='bg-cyan-100 py-8'>
       <h2 className='text-center'>Connect With Our Team</h2>
       <p className='text-center mx-auto w-[28.875rem] my-6'>
         Get a free discovery call with our internal social media executives to

@@ -6,7 +6,7 @@ const Pricing = () => {
   return (
     <section className='mx-auto py-6'>
       <h2 className='text-center my-4'>Pricing</h2>
-      <aside className='flex gap-x-4 px-20'>
+      <aside className='flex lg:flex-row flex-col gap-y-4 gap-x-4 px-20'>
         <div className='bg-cyan-100 rounded-xl flex flex-col justify-between h-[49.6875rem] w-[19.6875rem] py-6 px-6 mx-auto'>
           <aside className='flex flex-col gap-y-2'>
             <p className='font-semibold text-2xl'>Team</p>
@@ -34,55 +34,79 @@ const Pricing = () => {
             </p>
           </aside>
           <aside>
-            <p className='font-semibold text-2xl'>A27$/</p>
-            <small>Hour</small>
-            <button className='text-white px-20 py-3 rounded-xl bg-cyan-900 font-semibold'>
+            <div className='flex items-center my-1'>
+              <p className='font-semibold text-2xl'>A27$/</p>
+              <small className='mt-2'>Hour</small>
+            </div>
+            <button className='text-white px-24 py-3 rounded-xl bg-cyan-900 font-semibold'>
               Choose
             </button>
           </aside>
         </div>
-        <div className='bg-cyan-100 rounded-xl h-[49.6875rem] w-[19.6875rem] py-6 px-6'>
-          <h3>Standard</h3>
-          <small>What You’ll Get</small>
-          <p className='flex'>
-            <Mark /> 10 Hours of social media management per week
-          </p>
-          <p className='flex'>
-            {' '}
-            <Mark /> 2-3 Static Social Media Posts per week
-          </p>
-          <p className='flex'>
-            {' '}
-            <Mark /> Full distribution and addaption to all platforms
-          </p>
-          <p className='flex'>
-            <Mark /> Complementary stories for all posts
-          </p>
-          <p className='flex'>
-            <Mark /> Daily Community Management
-          </p>
-          <p className='flex'>
-            <Mark /> Daily access to social media manager via slack or other
-            platform
-          </p>
-          <p className='flex'>
-            <Mark /> No Minimum Term
-          </p>
+        <div className='bg-cyan-100 rounded-xl h-[49.6875rem] w-[19.6875rem] py-6 px-6 flex flex-col justify-between'>
+          <aside>
+            <h3>Standard</h3>
+            <small>What You’ll Get</small>
+            <p className='flex'>
+              <Mark /> 10 Hours of social media management per week
+            </p>
+            <p className='flex'>
+              {' '}
+              <Mark /> 2-3 Static Social Media Posts per week
+            </p>
+            <p className='flex'>
+              {' '}
+              <Mark /> Full distribution and addaption to all platforms
+            </p>
+            <p className='flex'>
+              <Mark /> Complementary stories for all posts
+            </p>
+            <p className='flex'>
+              <Mark /> Daily Community Management
+            </p>
+            <p className='flex'>
+              <Mark /> Daily access to social media manager via slack or other
+              platform
+            </p>
+            <p className='flex'>
+              <Mark /> No Minimum Term
+            </p>
+          </aside>
+          <aside>
+            <div className='flex items-center my-1'>
+              <p className='font-semibold text-2xl'>A700$/</p>
+              <small className='mt-2'>month</small>
+            </div>
+            <button className='text-white px-24 py-3 rounded-xl bg-cyan-900 font-semibold'>
+              Choose
+            </button>
+          </aside>
         </div>
-        <div className='bg-cyan-100 h-[49.6875rem] w-[19.6875rem] py-6 px-6 rounded-xl'>
-          <h3>Accellerated</h3>
-          <small>What You’ll Get</small>
-          <p>20 Hours of social media management per week</p>
-          <p>3-5 Static and Motion Social Media Posts per week</p>
-          <p>Advanced Graphic Design & Motion Design Support</p>
-          <p>Paid Marketing and Post Boosting Support</p>
-          <p>Full distribution and addaption to all platforms</p>
-          <p>Daily Stories</p>
-          <p>Daily Community Management</p>
-          <p>
-            Daily access to social media manager via slack or other platform
-          </p>
-          <p>No Minimum Term</p>
+        <div className='bg-cyan-100 h-[49.6875rem] w-[19.6875rem] py-6 px-6 rounded-xl flex flex-col justify-between'>
+          <aside>
+            <h3>Accellerated</h3>
+            <small>What You’ll Get</small>
+            <p>20 Hours of social media management per week</p>
+            <p>3-5 Static and Motion Social Media Posts per week</p>
+            <p>Advanced Graphic Design & Motion Design Support</p>
+            <p>Paid Marketing and Post Boosting Support</p>
+            <p>Full distribution and addaption to all platforms</p>
+            <p>Daily Stories</p>
+            <p>Daily Community Management</p>
+            <p>
+              Daily access to social media manager via slack or other platform
+            </p>
+            <p>No Minimum Term</p>
+          </aside>
+          <aside>
+            <div className='flex items-center my-1'>
+              <p className='font-semibold text-2xl'>A1050$/</p>
+              <small className='mt-2'>month</small>
+            </div>
+            <button className='text-white px-24 py-3 rounded-xl bg-cyan-900 font-semibold'>
+              Choose
+            </button>
+          </aside>
         </div>
         <div className='bg-cyan-900 h-[49.6875rem] w-[19.6875rem] px-6 rounded-xl flex flex-col justify-between'>
           <div className=''>

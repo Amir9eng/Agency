@@ -5,7 +5,7 @@ const Formular = () => {
   return (
     <section className='mx-auto bg-cyan-100 px-40 py-8'>
       <h3 className='font-semibold text-center py-4'>Our Formula</h3>
-      <aside className='flex gap-x-4'>
+      <aside className='flex mx-auto lg:flex-row flex-col gap-y-4 gap-x-4'>
         <div className='px-4 py-3'>
           <Image
             alt=''
