@@ -84,16 +84,18 @@ const Pricing = () => {
           </p>
           <p>No Minimum Term</p>
         </div>
-        <div className='bg-cyan-900 h-[49.6875rem] w-[19.6875rem] py-6 px-6 rounded-xl'>
-          <p className='text-white text-2xl font-semibold'>Custom</p>
-          <p className='text-white text-2xl font-semibold'> Deployment</p>
-          <p className=''>
-            We will put together a bespoke plan for you based on the hours we
-            will invest with your business to get your business what it needs.
-          </p>
-          <button className='bg-cyan-100 rounded-xl text-cyan-900  px-20 py-3 font-semibold'>
-            Choose
-          </button>
+        <div className='bg-cyan-900 h-[49.6875rem] w-[19.6875rem] px-6 rounded-xl flex flex-col justify-between'>
+          <div className=''>
+            <p className='text-white text-2xl font-semibold mt-8'>Custom</p>
+            <p className='text-white text-2xl font-semibold'> Deployment</p>
+            <p className='text-white my-4'>
+              We will put together a bespoke plan for you based on the hours we
+              will invest with your business to get your business what it needs.
+            </p>
+            <button className='bg-cyan-100 rounded-xl text-cyan-900 px-24 py-3 font-semibold'>
+              Choose
+            </button>
+          </div>
           <div>
             <Image
               width={400.06}
