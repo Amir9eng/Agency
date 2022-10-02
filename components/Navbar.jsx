@@ -13,14 +13,14 @@ const Navbar = () => {
   return (
     <nav className='w-full overflow-hidden flex justify-between items-center h-20 bg-cyan-100 px-5 md:px-20 '>
       <div className='flex items-center'>
-        <Image
-          alt='/'
-          src='/assets/vector/logo.svg'
-          width={48.63}
-          height={40.29}
-        />
         <Link href='/'>
-          <p className='font-bold text-black'>Bashi Media</p>
+          <Image
+            alt='/'
+            src='/assets/vector/logo.svg'
+            width={48.63}
+            height={40.29}
+          />
+          <p className='font-bold bg-red-50 text-black'>Bashi Media</p>
         </Link>
       </div>
       <aside className='hidden lg:flex items-center md:gap-x-8 w-[70%]'>
@@ -58,13 +58,15 @@ const Navbar = () => {
         >
           <div className='w-full flex items-center justify-between'>
             <aside className='flex items-center gap-x-1'>
-              <Image
-                src='/assets/vector/logo.svg'
-                width={48.63}
-                height={40.29}
-                alt=''
-              />
-              <p className='font-bold text-black'>Bashi Media</p>
+              <Link href='/'>
+                <Image
+                  src='/assets/vector/logo.svg'
+                  width={48.63}
+                  height={40.29}
+                  alt=''
+                />
+                <p className='font-bold text-black'>Bashi Media</p>
+              </Link>
             </aside>
             <div
               onClick={handleNav}
