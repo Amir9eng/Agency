@@ -13,13 +13,13 @@ const Navbar = () => {
   return (
     <nav className='w-full overflow-hidden flex justify-between items-center h-20 bg-cyan-100 px-5 md:px-20 '>
       <div className='flex items-center'>
-        <Link href='/'>
-          <Image
-            alt='/'
-            src='/assets/vector/logo.svg'
-            width={48.63}
-            height={40.29}
-          />
+        <Image
+          alt='/'
+          src='/assets/vector/logo.svg'
+          width={48.63}
+          height={40.29}
+        />
+        <Link href='/index.js'>
           <p className='font-bold bg-red-50 text-black'>Bashi Media</p>
         </Link>
       </div>
@@ -58,13 +58,13 @@ const Navbar = () => {
         >
           <div className='w-full flex items-center justify-between'>
             <aside className='flex items-center gap-x-1'>
+              <Image
+                src='/assets/vector/logo.svg'
+                width={48.63}
+                height={40.29}
+                alt=''
+              />
               <Link href='/'>
-                <Image
-                  src='/assets/vector/logo.svg'
-                  width={48.63}
-                  height={40.29}
-                  alt=''
-                />
                 <p className='font-bold text-black'>Bashi Media</p>
               </Link>
             </aside>
