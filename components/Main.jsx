@@ -4,13 +4,13 @@ import Board from './Board'
 
 const Main = () => {
   return (
-    <section className='w-full bg-cyan-100 py-12 px-20 flex md:flex-row flex-col'>
+    <section className='w-full bg-cyan-100 py-12 px-20 justify-between items-center flex md:flex-row flex-col'>
       <div className='max-w-[31.75rem] py-10 px-2'>
         <h1 className='text-black'>Elevate Your</h1>
         <h1 className='text-cyan-900'> Social Media</h1>
         <h1 className='text-black'>Team With Us</h1>
         <div className=' py-8 leading-8'>
-          <p className='max-w-[20rem] font-semibold'>
+          <p className='w-[20rem] font-semibold'>
             We’re a team of digital consultants ready to augment your team, take
             on your next project or to be your complete dedicated team for the
             forseeable future. <br /> Scale your business online with our
@@ -26,8 +26,8 @@ const Main = () => {
           </button>
         </aside>
       </div>
-      <div className='grid grid-cols-2 h-[469px] relative'>
-        <div className='absolute z-10 w-[237px] h-[77px] rounded-xl bg-gradient-to-r from-[#C7D2CF] to-[#E3F9FB] left-[-20%] bottom-0 px-4 py-2'>
+      <div className='grid grid-cols-2 h-[29.3125rem] relative'>
+        <div className='absolute z-10 w-[14.8125rem] h-[4.8125rem] rounded-xl bg-gradient-to-r from-[#C7D2CF] to-[#E3F9FB] left-[-20%] bottom-0 px-4 py-2'>
           <h4 className='text-xl'>William Teig</h4>
           <p className='text-sm'>Creative Director</p>
         </div>
@@ -41,7 +41,7 @@ const Main = () => {
             className='rounded-xl'
           />
         </div>
-        <div className='ml-[-20px] z-20 mb-[-10px] w-[50%]'>
+        <div className='ml-[-.5rem] z-20 mb-[-.625rem]'>
           <Board />
         </div>
       </div>

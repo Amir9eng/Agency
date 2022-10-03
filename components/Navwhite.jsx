@@ -19,7 +19,10 @@ const NavWhite = () => {
           width={48.63}
           height={40.29}
         />
-        <p className='font-bold text-black'>Bashi Media</p>
+        <Link>
+          {' '}
+          <p className='font-bold text-black'>Bashi Media</p>
+        </Link>
       </div>
       <aside className='hidden lg:flex items-center md:gap-x-8 w-[70%]'>
         <Link href='/Capabilities'> Capabilities</Link>
@@ -62,7 +65,9 @@ const NavWhite = () => {
                 height={40.29}
                 alt=''
               />
-              <p className='font-bold text-black'>Bashi Media</p>
+              <Link>
+                <p className='font-bold text-black'>Bashi Media</p>
+              </Link>
             </aside>
             <div
               onClick={handleNav}
@@ -73,16 +78,16 @@ const NavWhite = () => {
           </div>
           <div>
             <ul className='uppercase py-4 flex flex-col font-semibold'>
-              <Link href='/'>
+              <Link href='/Capabilities'>
                 <li className='py-4 text-sm'>Capabilities</li>
               </Link>
-              <Link href='/'>
+              <Link href='/OurTeam'>
                 <li className='py-4 text-sm'>Our Team</li>
               </Link>
-              <Link href='/'>
+              <Link href='/OurWork'>
                 <li className='py-4 text-sm'>Our Work</li>
               </Link>
-              <Link href='/'>
+              <Link href='/Blogs'>
                 <li className='py-4 text-sm'>Blog</li>
               </Link>
             </ul>
