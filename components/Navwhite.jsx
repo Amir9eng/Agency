@@ -19,8 +19,7 @@ const NavWhite = () => {
           width={48.63}
           height={40.29}
         />
-        <Link>
-          {' '}
+        <Link href='/'>
           <p className='font-bold text-black'>Bashi Media</p>
         </Link>
       </div>
@@ -65,7 +64,7 @@ const NavWhite = () => {
                 height={40.29}
                 alt=''
               />
-              <Link>
+              <Link href='/'>
                 <p className='font-bold text-black'>Bashi Media</p>
               </Link>
             </aside>

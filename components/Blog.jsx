@@ -24,13 +24,15 @@ const Blog = () => {
               nisi ut aliquip ex ea commodo consequat.
             </p>
             <div className='flex gap-x-3 items-center mt-8 mb-4'>
-              <p className='text-cyan-300'>Read full story</p>
-              <Image
-                alt='/'
-                width={18.33}
-                height={10}
-                src='/assets/vector/line.svg'
-              />
+              <p className='text-cyan-300 cursor-pointer'>Read full story</p>
+              <div className='cursor-pointer hover:scale-125 ease-out duration-500'>
+                <Image
+                  alt='/'
+                  width={18.33}
+                  height={10}
+                  src='/assets/vector/line.svg'
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -52,13 +54,15 @@ const Blog = () => {
               nisi ut aliquip ex ea commodo consequat.
             </p>
             <div className='flex gap-x-3 items-center mt-8 mb-4'>
-              <p className='text-cyan-300'>Read full story</p>
-              <Image
-                alt='/'
-                width={18.33}
-                height={10}
-                src='/assets/vector/line.svg'
-              />
+              <p className='text-cyan-300 cursor-pointer'>Read full story</p>
+              <div className='cursor-pointer hover:scale-125 ease-out duration-500'>
+                <Image
+                  alt='/'
+                  width={18.33}
+                  height={10}
+                  src='/assets/vector/line.svg'
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -79,14 +83,16 @@ const Blog = () => {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <div className='flex gap-x-3 items-center mt-16 mb-4'>
+            <div className='flex gap-x-3 items-center mt-16 mb-4 cursor-pointer'>
               <p className='text-cyan-300'>Read full story</p>
-              <Image
-                alt='/'
-                width={18.33}
-                height={10}
-                src='/assets/vector/line.svg'
-              />
+              <div className='cursor-pointer hover:scale-125 ease-out duration-500'>
+                <Image
+                  alt='/'
+                  width={18.33}
+                  height={10}
+                  src='/assets/vector/line.svg'
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -110,14 +116,16 @@ const Blog = () => {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <div className='flex gap-x-3 items-center mt-8 mb-4'>
+            <div className='flex gap-x-3 items-center mt-8 mb-4 cursor-pointer'>
               <p className='text-cyan-300'>Read full story</p>
-              <Image
-                alt='/'
-                width={18.33}
-                height={10}
-                src='/assets/vector/line.svg'
-              />
+              <div className='cursor-pointer hover:scale-125 ease-out duration-500'>
+                <Image
+                  alt='/'
+                  width={18.33}
+                  height={10}
+                  src='/assets/vector/line.svg'
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -138,14 +146,16 @@ const Blog = () => {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <div className='flex gap-x-3 items-center mt-8 mb-4'>
-              <p className='text-cyan-300'>Read full story</p>
-              <Image
-                alt='/'
-                width={18.33}
-                height={10}
-                src='/assets/vector/line.svg'
-              />
+            <div className='flex gap-x-3 items-center mt-8 mb-4 cursor-pointer'>
+              <p className='text-cyan-300 cursor-pointer'>Read full story</p>
+              <div className='cursor-pointer hover:scale-125 ease-out duration-500'>
+                <Image
+                  alt='/'
+                  width={18.33}
+                  height={10}
+                  src='/assets/vector/line.svg'
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -166,14 +176,16 @@ const Blog = () => {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <div className='flex gap-x-3 items-center mt-16 mb-4'>
-              <p className='text-cyan-300'>Read full story</p>
-              <Image
-                alt='/'
-                width={18.33}
-                height={10}
-                src='/assets/vector/line.svg'
-              />
+            <div className='flex gap-x-3 items-center mt-16 mb-4 cursor-pointer'>
+              <p className='text-cyan-300 cursor-pointer'>Read full story</p>
+              <div className='cursor-pointer hover:scale-125 ease-out duration-500'>
+                <Image
+                  alt='/'
+                  width={18.33}
+                  height={10}
+                  src='/assets/vector/line.svg'
+                />
+              </div>
             </div>
           </div>
         </div>
