@@ -19,7 +19,7 @@ const Navbar = () => {
           width={48.63}
           height={40.29}
         />
-        <Link href='/index.js'>
+        <Link href='/'>
           <p className='font-bold bg-red-50 text-black'>Bashi Media</p>
         </Link>
       </div>
