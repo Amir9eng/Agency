@@ -7,7 +7,7 @@ import Talk from './../components/Talk'
 
 const OurTeam = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full h-full'>
       <Navwhite />
       <Bar />
       <Team />
