@@ -6,7 +6,7 @@ import Tips from './../components/Tips'
 
 const OurWork = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full h-full'>
       <NavWhite />
       <Tips />
       <Talk />
