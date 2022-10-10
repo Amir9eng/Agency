@@ -17,11 +17,11 @@ const Main = () => {
             solutions today.
           </p>
         </div>
-        <aside className='font-semibold flex gap-x-12'>
+        <aside className='font-semibold  md:flex-col  flex gap-x-12'>
           <button className='bg-white border-black border-2 md:px-12 md:my-4 px-6 py-2 rounded-xl'>
             Lets Get Started
           </button>
-          <button className='px-6 py-2 border-black border-2 rounded-xl'>
+          <button className='px-6 py-2  md:px-12 border-black border-2 rounded-xl'>
             See Our Work
           </button>
         </aside>
