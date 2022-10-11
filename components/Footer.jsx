@@ -18,7 +18,7 @@ const Footer = () => {
               type='email'
               name='Email address'
               placeholder='Email address'
-              className='placeholder:text-slate-400 bg-transparent border-b-cyan-100 border-b px-4 py-2'
+              className='placeholder:text-slate-400 outline-none bg-transparent border-b-cyan-100 border-b px-4 py-2'
             />
             <button className='bg-cyan-100 w-[50px] h-[41px] rounded-tl-xl rounded-tr-xl'>
               <Image
