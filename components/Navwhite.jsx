@@ -20,7 +20,7 @@ const NavWhite = () => {
           height={40.29}
         />
         <Link href='/'>
-          <p className='font-bold text-black'>Bashi Media</p>
+          <p className='font-bold cursor-pointer text-black'>Bashi Media</p>
         </Link>
       </div>
       <aside className='hidden lg:flex items-center md:gap-x-8 w-[70%]'>
@@ -65,7 +65,9 @@ const NavWhite = () => {
                 alt=''
               />
               <Link href='/'>
-                <p className='font-bold text-black'>Bashi Media</p>
+                <p className='cursor-pointer font-bold text-black'>
+                  Bashi Media
+                </p>
               </Link>
             </aside>
             <div
