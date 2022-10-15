@@ -46,7 +46,7 @@ const Remote = () => {
           </div>
         </aside>
       </div>
-      <div className='w-[796px] py-8'>
+      <div className='w-[796px] py-8 ml-6'>
         <h2 className='font-semibold'>Mastering Remote</h2>
         <h2 className='font-semibold'>Work</h2>
         <p className='w-[526px]'>
