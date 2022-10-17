@@ -11,7 +11,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='w-full overflow-hidden flex justify-between items-center h-20 bg-cyan-100 px-5 md:px-20 '>
+    <nav className='w-full overflow-hidden flex justify-between items-center h-20 bg-cyan-100 px-5 md:px-20 z-20'>
       <div className='flex items-center'>
         <Image
           alt='/'
@@ -45,7 +45,7 @@ const Navbar = () => {
         <AiOutlineMenu size={25} />
       </div>
       <div
-        className={`lg:hidden absolute transition-all duration-500 w-screen h-screen bg-black/70 ${
+        className={`lg:hidden absolute transition-all duration-500 w-full h-full bg-black/70 ${
           nav ? '-ml-6' : '-ml-[120vw]'
         } `}
       >
