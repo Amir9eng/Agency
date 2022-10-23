@@ -46,7 +46,18 @@ body {
 * {
     box-sizing: border-box;
 }
+:root{
+    font-size:16px;
+}
 
+@media screen and (max-width:760px) {
+
+    :root{
+        font-size:12px;
+    }
+   
+    
+}
 @media (prefers-color-scheme: dark) {
     /* html {
         color-scheme: dark;
