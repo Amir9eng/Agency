@@ -41,11 +41,11 @@ const Navbar = () => {
           Contact Us
         </button>
       </aside>
-      <div onClick={handleNav} className='lg:hidden'>
+      <div onClick={handleNav} className='md:hidden'>
         <AiOutlineMenu size={25} />
       </div>
       <div
-        className={`lg:hidden absolute transition-all duration-500 w-full h-full bg-black/70 ${
+        className={`md:hidden z-10 absolute transition-all duration-500 w-full h-screen bg-black/70 ${
           nav ? '-ml-6' : '-ml-[120vw]'
         } `}
       >
