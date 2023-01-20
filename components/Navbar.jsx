@@ -12,42 +12,48 @@ const Navbar = () => {
 
   return (
     <nav className='w-full overflow-hidden flex justify-between items-center h-20 bg-cyan-100 px-5 md:px-20 z-20'>
-      <div className='flex items-center'>
-        <Image
-          alt='/'
-          src='/assets/vector/logo.svg'
-          width={48.63}
-          height={40.29}
-        />
-        <Link href='/'>
-          <p className='font-bold cursor-pointer text-black'>Bashi Media</p>
-        </Link>
-      </div>
-      <aside className='hidden lg:flex items-center md:gap-x-8 w-[70%]'>
-        <Link href='/Capabilities'> Capabilities</Link>
-        <Link href='/OurTeam'>
-          <a href='' className='whitespace-nowrap'>
-            Our Team
-          </a>
-        </Link>
-        <Link href='/OurWork'>
-          <a href='' className='whitespace-nowrap'>
-            Our Work
-          </a>
-        </Link>
-        <Link href='/Blogs'>Blog</Link>
-        <p className='flex-grow' />
-        <button className=' font-bold md:w-[207px] md:h-[52px] rounded-xl border-2 border-black bg-white text-black'>
-          Contact Us
-        </button>
-      </aside>
-      <div onClick={handleNav} className='md:hidden'>
-        <AiOutlineMenu size={25} />
+      <div className='flex justify-between w-full item-center'>
+        <div className='flex items-center'>
+          <Image
+            alt='/'
+            src='/assets/vector/logo.svg'
+            width={48.63}
+            height={40.29}
+          />
+          <Link href='/'>
+            <p className='font-bold cursor-pointer text-black'>Bashi Media</p>
+          </Link>
+        </div>
+        <aside className='hidden lg:flex items-center md:gap-x-8 w-[70%]'>
+          <Link href='/Capabilities'> Capabilities</Link>
+          <Link href='/OurTeam'>
+            <a href='' className='whitespace-nowrap'>
+              Our Team
+            </a>
+          </Link>
+          <Link href='/OurWork'>
+            <a href='' className='whitespace-nowrap'>
+              Our Work
+            </a>
+          </Link>
+          <Link href='/Blogs'>Blog</Link>
+          <p className='flex-grow' />
+          <button className=' font-bold md:w-[207px] md:h-[52px] rounded-xl border-2 border-black bg-white text-black'>
+            Contact Us
+          </button>
+        </aside>
+        <div onClick={handleNav} className='md:hidden mt-3'>
+          <AiOutlineMenu size={25} />
+        </div>
       </div>
       <div
-        className={`md:hidden z-10 absolute transition-all duration-500 w-full h-screen bg-black/70 ${
-          nav ? '-ml-6' : '-ml-[120vw]'
-        } `}
+        className={`${
+          nav && 'md:hidden z-10 fixed left-0 top-0 w-full h-screen bg-black/50'
+        }`}
+
+        // {`md:hidden z-10 absolute transition-all duration-500 w-full h-screen bg-black/70 ${
+        //   nav ? '-ml-6' : '-ml-[120vw]'
+        // } `}
       >
         <div
           className={
