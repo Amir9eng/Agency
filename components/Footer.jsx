@@ -70,10 +70,10 @@ const Footer = () => {
         </div>
       </div>
       <div className='flex lg:flex-row flex-col justify-between md:px-48 mt-6'>
-        <p className='text-sm text-white'>
+        <p className='text-sm text-white md:pt-2 px-6 ml-2 md:ml-0 md:px-0'>
           Copyright © 2022 - Bashi Media. All Rights Served | Terms & Conditions
         </p>
-        <div className='flex gap-x-8 lg:mx-0 mx-auto'>
+        <div className='flex gap-x-8 lg:mx-0 mx-auto py-6 md:py-0'>
           <Image
             alt='/'
             width={9.92}
