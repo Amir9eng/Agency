@@ -11,7 +11,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='w-full overflow-hidden flex justify-between items-center h-20 bg-cyan-100 px-5 md:px-20 z-20'>
+    <nav className='w-full overflow-hidden flex justify-between items-center h-20 bg-cyan-100 px-5 md:px-20 z-100'>
       <div className='flex justify-between w-full item-center'>
         <div className='flex items-center'>
           <Image
