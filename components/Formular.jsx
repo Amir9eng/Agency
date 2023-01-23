@@ -16,7 +16,7 @@ const Formular = () => {
             />
           </div>
           <p className='font-semibold text-3xl py-2'>Strategy</p>
-          <p className='font-[Raleway] text-lg'>
+          <p className='font-[Raleway] md:text-md text-lg'>
             We set out a specific strategy for your brand by analyzing your
             brand, your industry and your competitors. Your strategy will inform
             and define your content pillars
@@ -31,7 +31,7 @@ const Formular = () => {
             src='/assets/vector/Production.svg'
           />
           <p className='font-semibold text-3xl py-2'>Production</p>
-          <p className='font-[Raleway] text-lg'>
+          <p className='font-[Raleway] md:text-md text-lg'>
             With the strategy in place our social media team in conjunction with
             our graphic design team will design, write and arrange your social
             media posts, in monthly increments.
